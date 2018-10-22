@@ -1,0 +1,26 @@
+.description {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+#article {
+  margin-right: 40px;
+  float: left;
+}
+
+#img {
+  margin-left: 50px;
+}
+
+.MainInfo {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+#Location {
+  margin-right: 40px;
+  float: left;
+}
