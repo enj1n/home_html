@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=NTR|Rancho');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Cookie');
 
 body {
   max-width: 980px;
@@ -11,7 +11,7 @@ body {
 
 
 header .header-logo {
-  font-family: 'Rancho', cursive;
+  font-family: 'Cookie', cursive;
   font-size: 3rem;
   text-align: center;
   margin: 20px auto;
@@ -37,7 +37,7 @@ header .menu li a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  font-family: 'NTR', sans-serif;
+   font-family: 'Coming Soon', cursive;
 }
 
 header .menu li a:hover {
