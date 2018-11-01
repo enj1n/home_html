@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Cookie');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Cookie');
 
-        
+
 
 body {
   max-width: 980px;
@@ -23,7 +23,7 @@ header .menu {
   padding: 0;
   display: flex;
   justify-content: center;
-  
+
 
 }
 
@@ -36,7 +36,7 @@ header .menu li a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Crimson Text', serif;
 }
 
 header .menu li a:hover {
@@ -74,18 +74,48 @@ header .main-pic {
 }
 
 .description-card {
-   font-family: 'Coming Soon', cursive;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+  font-family: 'Crimson Text', serif;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
 }
-
 
 .description-card img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 
+h3 {
+ font-family: 'Crimson Text', serif;
+}
 
+/*Нижняя Часть*/
 
+.maininfo {
+  font-family: 'Crimson Text', serif;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+@media (min-width: 400px) {
+  .maininfo-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 600px) {
+  .maininfo-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+h4 {
+  font-family: 'Crimson Text', serif;
+}
+
+p {
+  font-family: 'Crimson Text', serif;
+}

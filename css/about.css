@@ -1,0 +1,16 @@
+header .main-pic {
+   min-height: 900px;
+  background-image: url(../img/About/Front.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:left;
+ width:50%;
+ height: 50px;
+ 
+}
+h1 {
+  font-family: 'Coming Soon', cursive;
+}
