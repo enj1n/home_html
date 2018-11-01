@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Cookie');
-<link href="https://fonts.googleapis.com/css?family=Coming+Soon|Cookie" rel="stylesheet
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Cookie');
+
 
 body {
   max-width: 980px;
@@ -38,7 +38,7 @@ header .menu li a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-   font-family: 'Coming Soon', cursive;
+   font-family: 'Crimson Text', serif;
 }
 
 header .menu li a:hover {
