@@ -1,29 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Cookie');
-
-
-body {
-  max-width: 980px;
-  margin: auto;
-  background: black;
-  color: white;
-}
-
-
-header .header-logo {
-  font-family: 'Cookie', cursive;
-  font-size: 3rem;
-  text-align: center;
-  margin: 20px auto;
-}
-header .header-menu {
-  text-align: center;
-  margin: 20px auto;
-}
 header .menu {
+  max-width: 100%; 
+  height: auto;
   padding: 0;
   display: flex;
   justify-content: center;
 }
+
 header .menu li {
   display: inline;
   margin: 0 2%;
@@ -33,7 +15,7 @@ header .menu li a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-   font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', serif;
 }
 
 header .menu li a:hover {
@@ -61,12 +43,12 @@ header .menu li a:hover {
 }
 
 .menu-card {
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
 }
 
 .menu-card img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }

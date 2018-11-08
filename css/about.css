@@ -1,7 +1,8 @@
 header .main-pic {
     min-height: 600px;
     background-image: url(../img/About/Front.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     align-items: center;
@@ -11,8 +12,17 @@ header .main-pic {
     height: 50px;
     padding: 10px;
     margin: 10px;
-
 }
+@media (min-width: 400px) {
+  .main-pic{
+    background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+}
+
 
 h1 {
     font-family: 'Coming Soon', cursive;
