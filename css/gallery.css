@@ -36,11 +36,7 @@ header .menu li a:hover {
   }
 }
 
-@media (min-width: 800px) {
-  .menu-list {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+
 
 .menu-card {
   border: 1px solid black;
@@ -51,4 +47,9 @@ header .menu li a:hover {
 .menu-card img {
   display: block;
   width: 100%;
+  
 }
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  text-align: center;

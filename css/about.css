@@ -1,29 +1,35 @@
 header .main-pic {
-    min-height: 600px;
-    background-image: url(../img/About/Front.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    width: 50%;
-    height: 50px;
-    padding: 10px;
-    margin: 10px;
-}
-@media (min-width: 400px) {
-  .main-pic{
-    background-size: cover;
+  min-height: 600px;
+  background-image: url(../img/About/Front.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  float: left;
+  width: 50%;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media (min-width: 400px) {
+  .main-pic {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 
 h1 {
-    font-family: 'Coming Soon', cursive;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+}
+
+p {
+  align-items: center;
 }

@@ -83,9 +83,12 @@ header .main-pic {
   width: 100%;
 }
 
+h2 {
+  font-family: 'Crimson Text', serif;
+}
 
 h3 {
- font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', serif;
 }
 
 /*Footer*/
@@ -95,15 +98,15 @@ h3 {
   border: 1px solid black;
   padding: 5px;
   margin: 5px;
-  max-width: 100%; 
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (min-width: 400px) {
   .maininfo-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+
   }
 }
 
@@ -119,7 +122,66 @@ h4 {
 
 p {
   font-family: 'Crimson Text', serif;
+
 }
 
+#myButton {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  position: relative;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, .4);
+  background: none;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
+#myButton:before,
+#myButton:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
 
+#myButton:before {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+
+#myButton:after {
+  top: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
+}
+
+#myButton:hover:before,
+#myButton:hover:after {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+#myButton:hover:before {
+  transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+}
+
+#myButton:hover:after {
+  transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+}
+
+#myButton:hover {
+  background: rgba(255, 255, 255, .2);
+}

@@ -70,3 +70,13 @@ header .menu li a:hover {
     display: block;
     width: 100%;
 }
+
+p {
+  text-align:center;
+}
+h2  {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
